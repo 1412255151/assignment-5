@@ -21,8 +21,6 @@ class SavingsAccount(Account):
         else:
             return 0
 
-
-# Create a new SavingsAccount object
 initial_balance = float(input("Enter the initial balance for your Savings Account: "))
 savings_account = SavingsAccount(initial_balance)
 
